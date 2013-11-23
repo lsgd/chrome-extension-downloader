@@ -1,0 +1,41 @@
+{
+	"name": "Chrome Extension Downloader (official)",
+	"short_name": "Chrome Extension Downloader",
+	"version": "3.9",
+	"author": "Lukas Schulze",
+	"homepage_url": "http://www.chrome-extension-downloader.com",
+	"manifest_version": 2,
+	"description": "easily download and save chrome extensions to your computer - the official version from Chrome-Extension-Downloader.com",
+	"icons": {
+		"16": "icons/16x16.png",
+		"48": "icons/48x48.png",
+		"128": "icons/128x128.png"
+	},
+
+	"page_action": {
+		"default_icon": {
+		  "19": "icons/19x19_small.png",
+		  "38": "icons/38x38.png"
+		},
+		"default_title": "Download extension with Chrome Extension Downloader..."
+	},
+
+	"background": {
+		"scripts": [
+			"background.js"
+			]
+		},
+	"content_scripts": [
+		{
+			"matches": ["http://*/*", "https://*/*"],
+			"js": ["foreground.js"],
+			"run_at": "document_end",
+			"all_frames": true
+		}
+	],
+	"permissions": [
+		"tabs",
+		"contextMenus",
+		"https://chrome.google.com/*"
+	]
+}
