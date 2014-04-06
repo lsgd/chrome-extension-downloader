@@ -1,7 +1,7 @@
 {
 	"name": "Chrome Extension Downloader (official)",
 	"short_name": "Chrome Extension Downloader",
-	"version": "3.9",
+	"version": "4.0",
 	"author": "Lukas Schulze",
 	"homepage_url": "http://www.chrome-extension-downloader.com",
 	"manifest_version": 2,

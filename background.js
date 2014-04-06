@@ -81,7 +81,7 @@ ced.isValidExtensionForTab = function(tabId) {
 
 ced.downloadExtension = function(extension) {
 	chrome.tabs.create({
-		url:'http://www.chrome-extension-downloader.com/landing.php?source=chrome-extension&extension='+extension
+		url:'http://www.chrome-extension-downloader.com/chrome-extension/'+extension+'/landing.html'
 	});
 };
 
