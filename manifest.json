@@ -1,11 +1,11 @@
 {
-	"name": "Extension Downloader for Google Chrome™",
-	"short_name": "Extension Downloader for Google Chrome™",
-	"version": "4.2",
+	"name": "Extension Downloader",
+	"short_name": "Extension Downloader",
+	"version": "4.3",
 	"author": "Lukas Schulze",
 	"homepage_url": "http://www.chrome-extension-downloader.com",
 	"manifest_version": 2,
-	"description": "easily download and save chrome extensions to your computer - the official version from Chrome-Extension-Downloader.com",
+	"description": "easily download and save chrome extensions to your computer - the official version from www.Chrome-Extension-Downloader.com",
 	"icons": {
 		"16": "icons/16x16.png",
 		"48": "icons/48x48.png",
@@ -17,7 +17,7 @@
 		  "19": "icons/19x19_small.png",
 		  "38": "icons/38x38.png"
 		},
-		"default_title": "Download extension with Extension Downloader for Google Chrome™..."
+		"default_title": "Download extension with Extension Downloader..."
 	},
 
 	"background": {
